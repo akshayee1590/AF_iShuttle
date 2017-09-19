@@ -1,0 +1,13 @@
+**/test-output
+**/bin
+**/build
+**/*.zip
+**/*log
+**/.refactorings
+**/.DS_Store
+**/._*
+**/.gradle
+**/.project
+**/.classpath
+**/.settings
+

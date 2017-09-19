@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="iShuttle Test Automation" verbose="3"  parallel="false" thread-count="1" >
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444" />
+		<parameter name="browserName" value="chrome" />
+	<parameter name="webSite" value="http://10.115.1.121/ishuttle-master/auth/login" />   
+	
+	<test name="SmokeTest">
+	    <classes>
+	      <class name="com.ishuttle.scripts.SmokeSuite3"/>   
+	    </classes>
+	</test>
+ </suite>
